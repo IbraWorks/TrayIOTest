@@ -32,7 +32,7 @@ const PrivacySection: React.FC<IProps> = ({ privacyValues, handleData }) => {
       </Form.Field>
       <Form.Field>
         <label>
-          Receive updates about Tray.io product by email
+          Receive communication by email for other products created by the Tray.io team
           <input
             style={{ float: "right", marginTop: "5px"}}
             name="communicationByEmail"

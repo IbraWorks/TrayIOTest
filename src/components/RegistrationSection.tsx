@@ -75,7 +75,7 @@ const RegistrationSection: React.FC<IProps> = ({ handleData, registrationValues 
           )}
           {errors.password && errors.password.type === "pattern" && (
             <p style={{ color: "red" }}>
-              Password must contain at least one upper case, at least one
+              Password must contain at least one uppercase, at least one
               lowercase, and at least one digit
             </p>
           )}
